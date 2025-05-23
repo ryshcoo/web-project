@@ -9,10 +9,19 @@ header {
     text-align: center;
 }
 
+main {
+    margin-right: 10px;
+}
+
+article p {
+    text-indent: 5px;
+}
+
 footer {
     background-color: darkslategray;
+    color: white;
     text-align: center;
     position: fixed;
     bottom: 0;
-    width: fit-content;
+    width: 100%;
 }
