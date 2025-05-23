@@ -1,5 +1,18 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    text-align: center;
+}
+
+footer {
+    background-color: darkslategray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: fit-content;
+}
