@@ -10,11 +10,11 @@ header {
 }
 
 main {
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 article p {
-    text-indent: 5px;
+    margin-left: 30px;
 }
 
 footer {
