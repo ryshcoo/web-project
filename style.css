@@ -10,11 +10,12 @@ header {
 }
 
 main {
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 article p {
-    margin-left: 30px;
+    line-height: 1.4;
 }
 
 footer {
