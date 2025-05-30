@@ -10,18 +10,33 @@ header {
     margin-bottom: 50px;
 }
 
+nav {
+  width: 220px;
+  position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+nav ul a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 8px 24px;
+}
+
 main {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: auto;
+    width: 50em;
 }
 
 article p {
     line-height: 1.4;
-}
-
-.push {
-    clear: both;
-    height: 60px;
 }
 
 footer {
@@ -31,4 +46,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.push {
+    clear: both;
+    height: 60px;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
 }
