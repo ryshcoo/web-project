@@ -19,6 +19,11 @@ article p {
     line-height: 1.4;
 }
 
+.push {
+    clear: both;
+    height: 60px;
+}
+
 footer {
     background-color: darkslategray;
     color: white;
