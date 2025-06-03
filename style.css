@@ -30,7 +30,7 @@ nav ul a {
     text-decoration: none;
     padding: 8px 24px;
 
-    &:hover {
+    &:hover :not(.active) {
         background-color: #d7d7d7;
     }
 }
